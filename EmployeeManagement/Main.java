@@ -1,18 +1,4 @@
 package EmployeeManagement;
- 
-/*
-Soru: Personel Yönetimi
-Super Class: Employee
-
-name (String türünde) ve id (int türünde) adında iki üye değişkeni.
-name ve id için bir yapıcı tanımla.
-getDetails() adlı bir yöntem, çalışanın adını ve kimlik numarasını yazdırır.
-Concrete Class: Manager
-
-department (String türünde) adında bir üye değişkeni.
-name, id ve department için bir yapıcı tanımla, süper sınıfın yapıcısını çağır.
-getDetails() yöntemini geçersiz kıl ve "Manager: " + name + ", ID: " + id + ", Department: " + department şeklinde bir mesaj yazdır.
- */
 
 class Employee{
     protected int id;
